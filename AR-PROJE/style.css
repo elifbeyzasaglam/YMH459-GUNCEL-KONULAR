@@ -1,0 +1,150 @@
+/* Genel Ayarlar */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #F0FFF0; /* Açık yeşil */
+}
+
+/* Navigasyon */
+nav {
+    background-color: #32CD32; /* Yeşil */
+    padding: 15px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Altın sarısı */
+}
+
+/* Hakkımızda Sayfası için Özel Stil */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #32CD32; /* Yeşil */
+}
+
+main p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 40px;
+    color: #555;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section h2 {
+    font-size: 2.5em;
+    color: #32CD32;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    color: #555;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Butonlar İçin Düzenleme */
+button {
+    background-color: #32CD32; /* Yeşil */
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #28a745; /* Koyu Yeşil */
+    transform: translateY(-3px); /* Hover efekti */
+}
+
+button:focus {
+    outline: none;
+}
+
+/* Kart Tasarımı - Modern Hakkımızda Bölümü */
+.card {
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    max-width: 350px;
+    text-align: left;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Hover efekt */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card h3 {
+    font-size: 1.8em;
+    color: #32CD32;
+    margin-top: 10px;
+}
+
+.card p {
+    color: #555;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #32CD32; /* Yeşil */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

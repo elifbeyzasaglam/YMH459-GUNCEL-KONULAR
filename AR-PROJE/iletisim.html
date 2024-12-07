@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="ar.html">AR Deneyimi</a></li>
+            <li><a href="hakkimizda.html">Hakkında</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Bizimle İletişime Geçin</h1>
+        <p>
+            Sorularınız mı var? Yardıma mı ihtiyacınız var? Bizimle iletişime geçmek için aşağıdaki formu doldurun veya doğrudan e-posta gönderin!
+        </p>
+        <form action="mailto:ornek@ornek.com" method="POST" enctype="text/plain">
+            <div class="form-group">
+                <label for="name">Adınız:</label>
+                <input type="text" id="name" name="name" placeholder="Adınızı girin" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-posta Adresiniz:</label>
+                <input type="email" id="email" name="email" placeholder="E-posta adresinizi girin" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mesajınız:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Mesajınızı buraya yazın" required></textarea>
+            </div>
+            <button type="submit">Gönder</button>
+        </form>
+    </main>
+</body>
+</html>
