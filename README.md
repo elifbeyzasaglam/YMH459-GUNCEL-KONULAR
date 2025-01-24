@@ -11,8 +11,12 @@ https://drive.google.com/drive/folders/1HEdYGXKzTdfDPvgK9AKzrU7c3clEC5-9?usp=sha
 
 ## NASIL ÇALIŞIR
 Web sitesini ziyaret ederek hikâye ile ilgili detaylı bilgilere ulaşın.
+
 QR kodları okutarak artırılmış gerçeklik deneyimini keşfedin.
+
 Hikâyedeki 3D objelerle etkileşim kurarak öğreniminizi zenginleştirin.
+
 Overly uygulamasını cihazınıza indirip kurun.
+
 Tetikleyici görselleri uygulamada taratarak AR içeriğini görüntüleyin.
 
