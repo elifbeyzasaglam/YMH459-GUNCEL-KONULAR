@@ -3,13 +3,13 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
-    background-color: #F0FFF0; /* Açık yeşil */
+    color: #f1e2ef;
+    background-color: #f1e2ef; 
 }
 
 /* Navigasyon */
 nav {
-    background-color: #32CD32; /* Yeşil */
+    background-color:#f1e2ef; /* Yeşil */
     padding: 15px 0;
     text-align: center;
     position: sticky;
@@ -51,7 +51,7 @@ main h1 {
     font-size: 3em;
     font-weight: bold;
     margin-bottom: 20px;
-    color: #32CD32; /* Yeşil */
+    color: #ee4fd9; /* Yeşil */
 }
 
 main p {
@@ -66,7 +66,7 @@ main p {
 
 section h2 {
     font-size: 2.5em;
-    color: #32CD32;
+    color: #ee4fd9;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -83,7 +83,7 @@ section p {
 
 /* Butonlar İçin Düzenleme */
 button {
-    background-color: #32CD32; /* Yeşil */
+    background-color: #ee4fd9; /* Yeşil */
     color: white;
     font-size: 1.1em;
     font-weight: bold;
@@ -95,7 +95,7 @@ button {
 }
 
 button:hover {
-    background-color: #28a745; /* Koyu Yeşil */
+    background-color: #ee4fd9; /* Koyu Yeşil */
     transform: translateY(-3px); /* Hover efekti */
 }
 
@@ -142,7 +142,7 @@ button:focus {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #32CD32; /* Yeşil */
+    background-color: #ee4fd9; /* Yeşil */
     color: white;
     position: relative;
     bottom: 0;
